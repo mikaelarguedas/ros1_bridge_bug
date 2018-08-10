@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+    <name>ros2_msgs</name>
+    <version>0.0.2</version>
+    <description>bridge_test</description>
+    <maintainer email="todo@todo.todo">todo</maintainer>
+    <license>todo</license>
+
+    <buildtool_depend>ament_cmake</buildtool_depend>
+    <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+    <exec_depend>rosidl_default_runtime</exec_depend>
+
+    <test_depend>ament_lint_auto</test_depend>
+    <test_depend>ament_lint_common</test_depend>
+
+    <member_of_group>rosidl_interface_packages</member_of_group>
+
+    <export>
+        <ros1_bridge mapping_rules="ros1_mapping_rules.yaml"></ros1_bridge>
+        <build_type>ament_cmake</build_type>
+    </export>
+</package>

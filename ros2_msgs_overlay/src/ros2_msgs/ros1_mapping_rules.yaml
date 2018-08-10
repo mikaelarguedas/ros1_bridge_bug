@@ -1,0 +1,7 @@
+-
+ ros1_package_name: 'ros1_msgs'
+ ros1_message_name: 'EgoData'
+ ros2_package_name: 'ros2_msgs'
+ ros2_message_name: 'Size'
+ fields_1_to_2:
+  vehicleLength: 'length'
